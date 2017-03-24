@@ -17,7 +17,7 @@ It uses a modified version of the Capex frontend for game selection but you can 
 This port supports keyboard and USB joystick input and are configurable. It uses GLES2 graphics API and can run in the Console or under X-Windows. The audio uses the ALSA API and SDL is used for input. It uses a Cyclone 68000 core for performance and a MAME z80 core for compatibility.
 
 Web page for downloads, news, source, additional information:
-https://sourceforge.net/projects/pifba
+https://github.com/squidrpi/pifba
 
 (No asking for ROMS or any issues with ROMS)
 
@@ -41,11 +41,7 @@ CONTROLS
 
 Additionally to quit with the joystick you can press SELECT+START.
 
-<<<<<<< HEAD
 The joystick layout defaults to the XBOX360 Controller button layout. 
-=======
-The joystick layout defaults to XBMX 360 button layout. 
->>>>>>> 2579271559280f2f1b62a54183038cdbe24ec5ea
 
 All controls are configurable by editing the "fba2x.cfg" file. If your joystick uses axis different than 0 and 1 you can change this in the fbax2.cfg file.
 
